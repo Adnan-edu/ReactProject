@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactProject/static/css/main.2cce8147.chunk.css",
-    "main.js": "/ReactProject/static/js/main.946a0073.chunk.js",
-    "main.js.map": "/ReactProject/static/js/main.946a0073.chunk.js.map",
-    "runtime~main.js": "/ReactProject/static/js/runtime~main.4b0828e1.js",
-    "runtime~main.js.map": "/ReactProject/static/js/runtime~main.4b0828e1.js.map",
-    "static/css/2.f65acde2.chunk.css": "/ReactProject/static/css/2.f65acde2.chunk.css",
-    "static/js/2.eb088328.chunk.js": "/ReactProject/static/js/2.eb088328.chunk.js",
-    "static/js/2.eb088328.chunk.js.map": "/ReactProject/static/js/2.eb088328.chunk.js.map",
-    "index.html": "/ReactProject/index.html",
-    "precache-manifest.aa038b29f04fe6a3f3877b99558baf34.js": "/ReactProject/precache-manifest.aa038b29f04fe6a3f3877b99558baf34.js",
-    "service-worker.js": "/ReactProject/service-worker.js",
-    "static/css/2.f65acde2.chunk.css.map": "/ReactProject/static/css/2.f65acde2.chunk.css.map",
-    "static/css/main.2cce8147.chunk.css.map": "/ReactProject/static/css/main.2cce8147.chunk.css.map"
+    "main.css": "/ReactProject/weather-application/static/css/main.cfda8877.chunk.css",
+    "main.js": "/ReactProject/weather-application/static/js/main.307eb683.chunk.js",
+    "main.js.map": "/ReactProject/weather-application/static/js/main.307eb683.chunk.js.map",
+    "runtime~main.js": "/ReactProject/weather-application/static/js/runtime~main.7da98178.js",
+    "runtime~main.js.map": "/ReactProject/weather-application/static/js/runtime~main.7da98178.js.map",
+    "static/css/2.71977b34.chunk.css": "/ReactProject/weather-application/static/css/2.71977b34.chunk.css",
+    "static/js/2.13c1bfd4.chunk.js": "/ReactProject/weather-application/static/js/2.13c1bfd4.chunk.js",
+    "static/js/2.13c1bfd4.chunk.js.map": "/ReactProject/weather-application/static/js/2.13c1bfd4.chunk.js.map",
+    "index.html": "/ReactProject/weather-application/index.html",
+    "precache-manifest.c5c8f8cd3ecc5d5ba513b30896cc0fd1.js": "/ReactProject/weather-application/precache-manifest.c5c8f8cd3ecc5d5ba513b30896cc0fd1.js",
+    "service-worker.js": "/ReactProject/weather-application/service-worker.js",
+    "static/css/2.71977b34.chunk.css.map": "/ReactProject/weather-application/static/css/2.71977b34.chunk.css.map",
+    "static/css/main.cfda8877.chunk.css.map": "/ReactProject/weather-application/static/css/main.cfda8877.chunk.css.map",
+    "static/media/bootstrap.min.css": "/ReactProject/weather-application/static/media/glyphicons-halflings-regular.fa277232.woff"
   }
 }

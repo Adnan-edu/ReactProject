@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import { CardList } from "./components/card-list/card-list.component";
 
 class App extends Component {
   constructor() {
@@ -9,16 +10,14 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    fetch("https://api.myjson.com/bins/zuh4h")
+    fetch("https://api.myjson.com/bins/w8gn9")
       .then(response => response.json())
       .then(data => this.setState({ superheroes: data }));
   }
   render() {
     return (
       <div className="App">
-        {this.state.superheroes.map(hero => (
-          <h1 key={hero.id}>{hero.name}</h1>
-        ))}
+        <CardList superheroes={this.state.superheroes} />
       </div>
     );
   }

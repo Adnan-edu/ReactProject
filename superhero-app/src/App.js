@@ -19,6 +19,11 @@ class App extends Component {
   // If we want to see or do something with our state right after we set it then
   // we have to do it inside the second argument in the setState function. Second callback
   //function will be called right after the setState function.
+  //Javascript by default doesn't set its scope of this on function
+
+  handleChange = e => {
+    this.setState({ searchField: e.target.value });
+  };
   render() {
     const { superheroes, searchField } = this.state;
     const filterHeories = superheroes.filter(hero =>
@@ -26,10 +31,8 @@ class App extends Component {
     );
     return (
       <div className="App">
-        <SearchBox
-          placeholder="Search Name"
-          handlechange={e => this.setState({ searchField: e.target.value })}
-        />
+        <h1>Super Hero</h1>
+        <SearchBox placeholder="Search Name" handlechange={this.handleChange} />
         <CardList superheroes={filterHeories} />
       </div>
     );

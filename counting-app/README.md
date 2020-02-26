@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project was created to get familiar with the React framework
+# Counting-app:
+Number of rows denote in the navbar badge section. If increment key is pressed at any particular row then current row’s badge is updated. User can delete any particular row. Then navbar badge will be updated. Reset button resets the value of all the badges. 
+
+![CountingApp_1](https://user-images.githubusercontent.com/44027826/75327851-2aeff700-58d1-11ea-967a-b11644269b6c.JPG)
+
+![Increment](https://user-images.githubusercontent.com/44027826/75327886-380ce600-58d1-11ea-8b00-5a0ac5950051.JPG)
+
+![Delete](https://user-images.githubusercontent.com/44027826/75327930-49ee8900-58d1-11ea-9731-914aa6a29eea.JPG)
+
+![Reset](https://user-images.githubusercontent.com/44027826/75327957-55da4b00-58d1-11ea-9da1-70e8ceb80b4b.JPG)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

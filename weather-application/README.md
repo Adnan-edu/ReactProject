@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### This project was created to get familiar with the React framework
+
+![WeatherApp](https://user-images.githubusercontent.com/44027826/75328513-43acdc80-58d2-11ea-8681-ee0bc87e8ddb.JPG)
+
+
 ## Available Scripts
 
 In the project directory, you can run:

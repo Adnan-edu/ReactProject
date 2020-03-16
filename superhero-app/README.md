@@ -1,4 +1,23 @@
+# superhero-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was created to get familiar with the React framework
+
+## Projects:
+
+![2020-02-10_18-19-12](https://user-images.githubusercontent.com/44027826/75325331-bd41cc00-58cc-11ea-9b77-d68b85d0a90d.png)
+
+![2020-02-10_18-21-21](https://user-images.githubusercontent.com/44027826/75325410-e5312f80-58cc-11ea-8956-122439df7d70.png)
+
+
+Here we are fetching list of super heroes from third party API. React's ES6 class components have lifecycle methods. The render() lifecycle method is mandatory to output a React element, because after all you may want to display the fetched data at some point.
+There is another lifecycle method that is a perfect match to fetch data: componentDidMount(). When this method runs, the component was already rendered once with the render() method, but it would render again when the fetched data would be stored in the local state of the component with setState().
+
+The componentDidMount() lifecycle method is the best place to fetch data.
+When the data is fetched successfully, it will be stored in the local state with React's this.setState() method. Then the render() method will trigger again and you can display the fetched data.
+
+
 
 ## Available Scripts
 

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useSelectedProjectValue, useProjectsValue } from "../context";
+import { IndividualProject } from "./IndividualProject";
 
 export const Projects = ({ activeValue = null }) => {
   const [active, setActive] = useState(activeValue);
   const { setSelectedProject } = useSelectedProjectValue();
   const { projects } = useProjectsValue();
-  console.log(projects);
   return (
     projects &&
     projects.map(project => (
@@ -18,16 +18,23 @@ export const Projects = ({ activeValue = null }) => {
             ? "active sidebar__project"
             : "sidebar__project"
         }
-        onKeyDown={() => {
-          setActive(project.projectId);
-          setSelectedProject(project.projectId);
-        }}
-        onClick={() => {
-          setActive(project.projectId);
-          setSelectedProject(project.projectId);
-        }}
       >
-        {("projects", JSON.stringify(project))}
+        <div
+          role="button"
+          data-testid="project-action"
+          tabIndex={0}
+          aria-label={`Select ${project.name} as the task project`}
+          onClick={() => {
+            setActive(project.projectId);
+            setSelectedProject(project.projectId);
+          }}
+          onKeyDown={() => {
+            setActive(project.projectId);
+            setSelectedProject(project.projectId);
+          }}
+        >
+          <IndividualProject project={project} />
+        </div>
       </li>
     ))
   );

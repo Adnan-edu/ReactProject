@@ -10,7 +10,7 @@ export const useTasks = selectedProject => {
     let unsubscribe = firebase
       .firestore()
       .collection("tasks")
-      .where("userId", "==", "jllFXlwyAL3tzHMtzRbw");
+      .where("userid", "==", "jllFXlwyAL3tzHMtzRbw");
 
     unsubscribe =
       selectedProject && !collatedTasksExist(selectedProject)
